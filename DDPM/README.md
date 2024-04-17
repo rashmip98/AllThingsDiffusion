@@ -1,3 +1,5 @@
+## DDPM from scratch in PyTorch
+
 This is a from-scratch implementation of the original DDPM [paper]((https://arxiv.org/abs/1505.04597)). It is a notebook with the UNet model, the diffusion model, a training script, and an image generation script. This is a vanilla implementation - a linear, fixed noise schedule is used and there is no conditioning. The dataset used is the Fashion MNIST but you can use your own. 
 
 From the original UNet, some things were changed - lesser residual blocks were used in the ascending & descending arms and I've also skipped the implementation of the attention block.
