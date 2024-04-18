@@ -4,7 +4,7 @@ This is a from-scratch implementation of the original DDPM [paper]((https://arxi
 
 From the original UNet, some things were changed - lesser residual blocks were used in the ascending & descending arms and I've also skipped the implementation of the attention block.
 
-In the training script, I've extracted only 500 random images as a sanity check to see if the model overfits since I don't have the compute to train for more epochs or for longer. You can experiment with different training parameters, different noise schedulers.
+In the training script, I've extracted only 1000 random images as a sanity check to see if the model overfits since I don't have the compute to train for more epochs or for longer. You can experiment with different training parameters, different noise schedulers.
 
 For further reading, I recommend:
 - Lilian Weng's [blog'(https://lilianweng.github.io/posts/2021-07-11-diffusion-models/)
