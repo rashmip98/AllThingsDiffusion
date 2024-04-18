@@ -7,5 +7,5 @@ From the original UNet, some things were changed - lesser residual blocks were u
 In the training script, I've extracted only 1000 random images as a sanity check to see if the model overfits since I don't have the compute to train for more epochs or for longer. You can experiment with different training parameters, different noise schedulers.
 
 For further reading, I recommend:
-- Lilian Weng's [blog'(https://lilianweng.github.io/posts/2021-07-11-diffusion-models/)
+- Lilian Weng's [blog](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/)
 - fast.ai's [video](https://www.youtube.com/watch?v=mYpjmM7O-30) explaining the math and in general, the entire course.
